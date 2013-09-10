@@ -37,6 +37,9 @@
     <Compile Include="..\FSharp.PowerPack\CompilerLocationUtils.fs">
       <Link>CompilerLocationUtils.fs</Link>
     </Compile>
+    <Compile Include="..\FSharp.PowerPack\CompilerLocationAdapter.fs">
+      <Link>CompilerLocationAdapter.fs</Link>
+    </Compile>
     <Compile Include="codedomvisitor.fs" />
     <Compile Include="generator.fs" />
     <Compile Include="compiler.fs" />

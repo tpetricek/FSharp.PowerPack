@@ -19,6 +19,7 @@
   </PropertyGroup>
   <!-- These dummy entries are needed for F# Beta2 -->
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartArguments>--outdir C:\temp\docs C:\dev\FSharp.DataFrame\bin\FSharp.DataFrame.dll</StartArguments>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
   </PropertyGroup>
